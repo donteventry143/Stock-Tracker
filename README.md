@@ -1,5 +1,5 @@
 # Stock-Tracker
-URL : 
+URL : https://donteventry143.github.io/Stock-Tracker/
 
 A responsive website that allows users to track stock prices in real time. The platform highlights trending stocks and enables users to search for specific stock symbols, displaying their current prices, price changes, and percentage variations. This project demonstrates key web development concepts, including API integration, dynamic data rendering, and UI design.
 
