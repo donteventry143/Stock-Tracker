@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Stock Tracker</div>
+            <ul class="nav-links">
+                <li><a href="#Login">Login</a></li>
+                <li><a href="#Signup">Signup</a></li>
+                <li><a href="#My Portfolio">My Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <h3>About Stock Tracker</h3>
+        <p>
+            Track stocks in real-time, view trending market data, and stay informed with the latest updates. 
+            This project showcases stock tracking functionality using APIs and allows users to search for stock symbols and view their performance.
+        </p>
+        <p>
+            <strong>Future Enhancements:</strong>
+            <ul>
+                <li>Implement a user sign-in feature for personalized experiences.</li>
+                <li>Allow users to create and manage a list of their desired stocks.</li>
+                <li>Add functionality to calculate the total value of a user's stock portfolio.</li>
+            </ul>
+        </p>
+    </section>
+
+    <!-- Main Section -->
+    <div class="container">
+        <section id="search">
+            <h1>📈 Stock Tracker</h1>
+            <p>Track your favorite stocks and stay up-to-date with the latest market trends.</p>
+            <input type="text" id="searchBox" placeholder="Search for a stock..." />
+            <div id="stockGrid" class="grid-container"></div>
+        </section>
+
+        <!-- Trending Stocks Section -->
+        <section id="trending">
+            <h2>🔥 Trending Stocks</h2>
+            <div id="trendingGrid" class="grid-container">
+                <!-- Placeholder for trending stocks -->
+                <p>Loading trending stocks...</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p>Powered by <a href="https://finnhub.io/" target="_blank" rel="noopener noreferrer">Finnhub</a></p>
+            <p>&copy; Jesse Wen's project</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
